@@ -1,0 +1,211 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    margin: 30px;
+    line-height: 1.6;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/white-waves.png');
+    background-repeat: repeat;
+    background-color: #e8e8e8;
+    color: #333333;
+}
+
+
+p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+
+a {
+    text-decoration: none; 
+    color: #0066cc;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004999;
+}
+
+
+h1.name-header {
+    font-size: 36pt;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #e0eafc, #cfdef3);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.portrait {
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 8px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.portrait:hover {
+    transform: scale(1.02);
+}
+
+
+h2 {
+    color: #2c3e50;
+    font-size: 18pt;
+    margin-top: 27px;
+    margin-bottom: 6px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+
+.poem {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2c3e50;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+table col {
+    width: 16.66%; 
+}
+
+
+.cs-class { 
+    background-color: #d4f1f9; 
+    border: 1px solid #a3e0f4;
+}
+.math-class { 
+    background-color: #f9d4d4; 
+    border: 1px solid #f4a3a3;
+}
+.eng-class { 
+    background-color: #f9f7d4; 
+    border: 1px solid #f4f0a3;
+}
+.work { 
+    background-color: #d4f9d9; 
+    border: 1px solid #a3f4af;
+}
+.break { 
+    background-color: #e6d4f9; 
+    border: 1px solid #cda3f4;
+}
+
+
+table tr td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.3);
+}
+
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.personal-interests {
+    margin-top: 20px;
+}
+
+.personal-interests p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #34495e;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-left: 4px solid #3498db;
+    border-radius: 0 8px 8px 0;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.personal-interests p:hover {
+    transform: translateX(5px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personal-interests p:not(:last-child) {
+    border-bottom: 1px dashed #e0e0e0;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.personal-interests + h2 {
+    margin-top: 40px;
+}
+
+
+h2:not([class]) + .personal-interests {
+    margin-top: 20px;
+}
+
+h2:not([class]) + .personal-interests {
+    position: relative;
+}
+
+h2:not([class]) {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border-bottom: none;
+    margin-top: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
